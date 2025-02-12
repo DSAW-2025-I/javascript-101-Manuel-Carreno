@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/XT2GbrI_)
 # Tarea de Programación en JavaScript
 
 En esta tarea, tu objetivo es completar las funciones proporcionadas en el archivo `solutions.js`. Cada función tiene un comentario que indica dónde debes agregar tu código. Una vez que hayas completado las funciones, deberás hacer un push de tus cambios al repositorio.
@@ -30,3 +31,6 @@ Ten en cuenta que si los datos de entrada proporcionados a las funciones no son 
 Recuerda que una vez que hayas hecho push de tus cambios, la plataforma calificará automáticamente tu solución y te proporcionará retroalimentación sobre tu desempeño.
 
 ¡Buena suerte!
+
+## Nombre:
+Manuel David Carreño Buitrago
