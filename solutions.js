@@ -13,6 +13,9 @@ function factorial(n) {
     console.log("Los datos de entrada no son adecuados")
     return;
   }
+  if (n===0 || n===1){
+    return 1;
+  }
   let resultado=1;
   for (let i=2; i<=n; i++){
     resultado*=i;
@@ -31,7 +34,7 @@ function findLargest(arr) {
 
 // Count Vowels in a String
 function countVowels(str) {
-  if(typeof str !== "String"){
+  if(typeof str !== "string"){
     console.log("Los datos de entrada no son adecuados")
     return;
   }
@@ -45,7 +48,7 @@ function isPrime(n) {
     console.log("Los datos de entrada no son adecuados");
     return;
   }
-  for (let i = 2; i <= Math.sqrt(n); i++) {
+  for (let i=2; i <= Math.sqrt(n); i++) {
     if (n % i === 0) return false;
   }
   return true;
