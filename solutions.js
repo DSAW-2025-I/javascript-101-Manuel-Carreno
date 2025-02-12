@@ -42,11 +42,11 @@ function countVowels(str) {
 // Check if a Number is Prime
 function isPrime(n) {
   if (typeof n !== "number" || !Number.isInteger(n) || n<2) {
-    console.log("Entrada no valida");
+    console.log("Los datos de entrada no son adecuados");
     return;
   }
   for (let i = 2; i <= Math.sqrt(n); i++) {
-    if (n % i == 0) return false;
+    if (n % i === 0) return false;
   }
   return true;
 }
