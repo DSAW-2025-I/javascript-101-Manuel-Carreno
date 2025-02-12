@@ -31,3 +31,5 @@ Ten en cuenta que si los datos de entrada proporcionados a las funciones no son 
 Recuerda que una vez que hayas hecho push de tus cambios, la plataforma calificará automáticamente tu solución y te proporcionará retroalimentación sobre tu desempeño.
 
 ¡Buena suerte!
+
+## Manuel David Carreño Buitrago

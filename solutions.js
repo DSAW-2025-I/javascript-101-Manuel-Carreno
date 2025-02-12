@@ -1,26 +1,55 @@
 // Sum of Two Numbers
 function sum(a, b) {
-  // Add your code here
+  if(typeof a!== "number" || typeof b!=="number"){
+    console.log("Entrada no valida")
+    return;
+  }
+  return a+b;
 }
 
 // Factorial of a Number
 function factorial(n) {
-  // Add your code here
-}
+  if(typeof n!== "number"){
+    console.log("Entrada no valida")
+    return;
+  }
+  let resultado=1;
+  for (let i=2; i<=n; i++){
+    resultado*=i;
+  }
+  return resultado;
+  }
 
 // Find the Largest Number
 function findLargest(arr) {
-  // Add your code here
+  if (!Array.isArray(arr) || arr.some(num => typeof num !== "number")) {
+    console.log("Entrada no valida");
+    return;
+  }
+  return Math.max(...arr);
 }
 
 // Count Vowels in a String
 function countVowels(str) {
-  // Add your code here
+  if(typeof str !== "String"){
+    console.log("Entrada no valida")
+    return;
+  }
+  const vowels = "aeiouAEIOU";
+  return [...str].filter(char => vowels.includes(char)).length;
 }
 
 // Check if a Number is Prime
 function isPrime(n) {
-  // Add your code here
+  if (typeof n !== "number" || !Number.isInteger(n) || n<2) {
+    console.log("Entrada no valida");
+    return;
+  }
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i == 0) 
+      return false;
+  }
+  return true;
 }
 
 module.exports = {
